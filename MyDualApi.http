@@ -1,0 +1,10 @@
+@url=http://localhost:5059
+
+### Regular API Call
+GET {{url}}/api/greeting/John
+
+### Regular API Call
+GET {{url}}/api/greeting/John/24?isMale=true
+
+### Get the wsdl
+GET {{url}}/GreetingService.svc?wsdl

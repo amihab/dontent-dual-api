@@ -1,0 +1,63 @@
+# Build files
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app/
+*.appxbundle
+*.msixbundle
+*.msi
+*.cab
+
+# User-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.sln.docstates
+
+# Package directories (NuGet, npm, etc.)
+packages/
+node_modules/
+bower_components/
+
+# Logs and debug files
+*.log
+*.nlog
+*.trace
+*.dmp
+
+# Environment & Config files
+.env
+secrets.json
+appsettings.*.json
+local.settings.json
+
+# .NET-specific files
+project.lock.json
+project.assets.json
+artifacts/
+GeneratedFiles/
+.nuget/
+ServiceFabricBackup/
+*.runtimeconfig.json
+
+# Visual Studio Code files
+.vscode/
+
+# Rider/JetBrains files
+.idea/
+*.sln.iml
+
+# MacOS system files
+.DS_Store
+
+# Linux/macOS swap & temp files
+*.swp
+*.swo
+
+certs/
