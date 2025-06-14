@@ -1,4 +1,4 @@
-# .NET application that impplemets dual api consumption using WSDL and REST
+# .NET application that implements dual api consumption using WSDL and REST
 
 The logic of this application is to implement both REST and SOAP endpoints.
 The REST endpoint is implemented using ASP.NET Core, while the SOAP endpoint is implemented using SoapCore, which allows for SOAP support in .NET Core applications.
